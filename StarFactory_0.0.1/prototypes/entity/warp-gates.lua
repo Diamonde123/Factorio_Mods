@@ -18,7 +18,7 @@ data:extend(
         percent = 70
       }
     },
-    energy_usage = "5MW",
+    energy_usage = "2MW",
     collision_box = {{-3, -3}, {3, 3}},
     selection_box = {{-3, -3}, {3, 3}},
     --next_upgrade = "warp-gate-1",

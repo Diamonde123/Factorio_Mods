@@ -52,9 +52,9 @@ data:extend(
     working_sound =
     {
       sound = { filename = "__StarFactory__/sound/protoss/pylon.ogg" },
-      apparent_volume = 1,
+      apparent_volume = 0.4,
       audible_distance_modifier = 0.5,
-      probability = 1 / (3 * 60) -- average pause between the sound is 3 seconds
+      probability = 1 / (180 * 60) -- average pause between the sound is 3 seconds
     },
     connection_points =
     {
