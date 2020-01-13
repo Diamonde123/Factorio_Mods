@@ -20,6 +20,15 @@ data:extend(
     },
     {
         type = "item",
+        name = "basic-protoss-building-parts",
+        icon = "__StarFactory__/graphics/icons/basic-protoss-building-parts.png",
+        icon_size = 64,
+        subgroup = "raw-resource",
+        order = "a[rocket-part]-a[photon-cannon-parts]",
+        stack_size = 200,
+    },
+    {
+        type = "item",
         name = "restored-pylon",
         icon = "__StarFactory__/graphics/icons/restored-pylon.png",
         icon_size = 90,
@@ -44,8 +53,18 @@ data:extend(
         icon = "__StarFactory__/graphics/icons/warp-gate-prototype.png",
         icon_size = 40,
         subgroup = "production-machine",
-        order="a[assembling-machine-1]",
+        order="a[assembling-machine-3]",
         place_result = "warp-gate-prototype",
+        stack_size = 50
+    },
+    {
+        type = "item",
+        name = "gateway",
+        icon = "__StarFactory__/graphics/icons/gateway.png",
+        icon_size = 40,
+        subgroup = "production-machine",
+        order="a[assembling-machine-3]",
+        place_result = "gateway",
         stack_size = 50
     },
  }

@@ -53,6 +53,21 @@ data:extend(
   },
   {
     type = "recipe",
+    name = "gateway",
+    energy_required = 250,
+    enabled = false,
+    ingredients =
+    {
+      {"warp-gate-prototype", 1},
+      {"iron-plate", 20},
+      {"steel-plate", 40},
+      {"basic-protoss-building-parts", 12},
+      {"productivity-module", 1},
+    },
+    result= "gateway"
+  },
+  {
+    type = "recipe",
     name = "pylon-parts",
     energy_required = 200,
     category = "primitive-summoning",
@@ -68,6 +83,17 @@ data:extend(
     enabled = false,
     ingredients = {},
     result= "photon-cannon-parts"
+  },
+  {
+    type = "recipe",
+    name = "basic-protoss-building-parts",
+    category = "primitive-summoning",
+    energy_required = 250,
+    enabled = false,
+    ingredients =
+    {
+    },
+    result= "basic-protoss-building-parts"
   },
   --[[{
     type = "recipe",

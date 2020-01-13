@@ -76,6 +76,36 @@ data:extend(
     },
     unit =
     {
+      count = 200,
+      ingredients = {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+      },
+      time = 45
+    },
+    order = "d-a-a"
+  },
+  {
+    type = "technology",
+    name = "basic-summoning",
+    icon_size = 128,
+    icon = "__StarFactory__/graphics/tecnology/basic-summoning.png",
+    prerequisites = {"primitive-summoning"},
+    effects =
+    {
+
+      {
+        type = "unlock-recipe",
+        recipe = "gateway"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "basic-protoss-building-parts"
+      },
+
+    },
+    unit =
+    {
       count = 300,
       ingredients = {
         {"automation-science-pack", 1},
