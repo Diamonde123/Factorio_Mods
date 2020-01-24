@@ -39,6 +39,16 @@ data:extend(
     },
     {
         type = "item",
+        name = "protoss-energy-distributor",
+        icon = "__StarFactory__/graphics/icons/energy-distributor.png",
+        icon_size = 64,
+        subgroup = "energy-pipe-distribution",
+        order = "a[energy]-a[restored-pylon]",
+        place_result = "protoss-energy-distributor",
+        stack_size = 50
+    },
+    {
+        type = "item",
         name = "restored-photon-cannon",
         icon = "__StarFactory__/graphics/icons/photon-cannon.png",
         icon_size = 32,
@@ -65,6 +75,16 @@ data:extend(
         subgroup = "production-machine",
         order="a[assembling-machine-3]",
         place_result = "gateway",
+        stack_size = 50
+    },
+    {
+        type = "item",
+        name = "assimilator",
+        icon = "__StarFactory__/graphics/icons/assimilator.png",
+        icon_size = 64,
+        subgroup = "production-machine",
+        order = "a[energy]-a[restored-pylon]",
+        place_result = "assimilator",
         stack_size = 50
     },
  }

@@ -46,7 +46,7 @@ data:extend(
       {"iron-plate", 10},
       {"steel-plate", 20},
       {"advanced-circuit", 12},
-      {"lab",6},
+      {"assembling-machine-2",4},
       {"stone-brick", 20},
     },
     result= "warp-gate-prototype"
@@ -61,7 +61,7 @@ data:extend(
       {"warp-gate-prototype", 1},
       {"iron-plate", 20},
       {"steel-plate", 40},
-      {"basic-protoss-building-parts", 12},
+      {"basic-protoss-building-parts", 8},
       {"productivity-module", 1},
     },
     result= "gateway"
@@ -72,37 +72,60 @@ data:extend(
     energy_required = 200,
     category = "primitive-summoning",
     enabled = false,
-    ingredients = {},
+    ingredients = {{"sf-crystal", 75}},
     result= "pylon-parts"
   },
   {
     type = "recipe",
     name = "photon-cannon-parts",
-    energy_required = 200,
+    energy_required = 250,
     category = "primitive-summoning",
     enabled = false,
-    ingredients = {},
+    ingredients = {
+      {"sf-crystal", 200},
+      {"vespen-gase", 200}
+  },
     result= "photon-cannon-parts"
   },
   {
     type = "recipe",
     name = "basic-protoss-building-parts",
     category = "primitive-summoning",
-    energy_required = 250,
+    energy_required = 225,
     enabled = false,
     ingredients =
     {
+      {"sf-crystal", 125}
     },
     result= "basic-protoss-building-parts"
   },
-  --[[{
+  {
     type = "recipe",
-    name = "pylon-parts",
+    name = "assimilator",
     energy_required = 50,
     category = "primitive-summoning",
     enabled = false,
-    ingredients=nil,
-    result= "pylon-parts"
-  },--]]
+    ingredients={
+      {"pumpjack",2},
+      {"iron-plate", 20},
+      {"steel-plate", 35},
+      {"basic-protoss-building-parts", 8},
+      {"electronic-circuit", 35}
+    },
+    result= "assimilator"
+  },
+  {
+    type = "recipe",
+    name = "protoss-energy-distributor",
+    energy_required = 50,
+    category = "primitive-summoning",
+    enabled = false,
+    ingredients={
+      {"restored-pylon",1},
+      {"steel-plate", 5},
+      {"basic-protoss-building-parts", 2},
+    },
+    result= "protoss-energy-distributor"
+  },
 }
 )

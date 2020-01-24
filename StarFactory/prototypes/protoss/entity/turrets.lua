@@ -64,7 +64,7 @@ data:extend(
     type = "electric-turret",
     call_for_help_radius = 40,
     name = "restored-photon-cannon",
-    icon = "__base__/graphics/icons/laser-turret.png",
+    icon = "__StarFactory__/graphics/icons/photon-cannon.png",
     icon_size = 32,
     flags = { "placeable-player", "placeable-enemy", "player-creation"},
     minable = { mining_time = 0.5, result = "restored-photon-cannon" },
