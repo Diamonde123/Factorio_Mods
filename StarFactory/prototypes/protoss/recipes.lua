@@ -103,7 +103,6 @@ data:extend(
     type = "recipe",
     name = "assimilator",
     energy_required = 50,
-    category = "primitive-summoning",
     enabled = false,
     ingredients={
       {"pumpjack",2},
@@ -118,7 +117,6 @@ data:extend(
     type = "recipe",
     name = "protoss-energy-distributor",
     energy_required = 50,
-    category = "primitive-summoning",
     enabled = false,
     ingredients={
       {"restored-pylon",1},
