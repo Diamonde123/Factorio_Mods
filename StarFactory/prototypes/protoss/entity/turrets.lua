@@ -109,9 +109,9 @@ data:extend(
           type = "direct",
           action_delivery =
           {
-            type = "beam",
-            beam = "invisible-beam",
-            max_length = 24,
+            type = "projectile",
+            projectile= "photon-projectile",
+            starting_speed = 2,
             duration = 40,
             source_offset = {0, -1.31439 }
           },

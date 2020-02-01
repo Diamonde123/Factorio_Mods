@@ -7,7 +7,7 @@ script.on_event(defines.events.on_built_entity, function(event)
 	local player  = game.players[event.player_index]
 	if ent.name == "restored-photon-cannon"then
 		local en_dist=false
-		for _,entity in ipairs(surface.find_entities({{pos.x-3,pos.y-3}, {pos.x+3,pos.y+3}})) do
+		for _,entity in ipairs(surface.find_entities({{pos.x-3,pos.y-3.5}, {pos.x+3,pos.y+3}})) do
 			if entity.name == "protoss-energy-distributor" then
 				en_dist = true
 			end
