@@ -22,7 +22,7 @@ data:extend(
       usage_priority = "secondary-input"
     },
     energy_usage = "90kW",
-    mining_speed = 0.05,
+    mining_speed = 0.02,
     resource_searching_radius = 0.5,
     module_specification =
     {

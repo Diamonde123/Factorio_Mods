@@ -14,6 +14,7 @@ require("prototypes.protoss.recipes")
 require("prototypes.protoss.recipe-categories")
 
 require("prototypes.protoss.items")
+require("prototypes.protoss.guns")
 
 require("prototypes.protoss.entity.entities")
 require("prototypes.protoss.entity.warp-gates")
